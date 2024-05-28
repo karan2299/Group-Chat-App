@@ -1,0 +1,23 @@
+{
+  "name": "group-chat-app",
+  "version": "1.0.0",
+  "description": "A simple group chat application with user management and authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "Karan",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "chai": "^5.1.1",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.4.0",
+    "mongoose": "^8.4.0",
+    "supertest": "^7.0.0"
+  }
+}
